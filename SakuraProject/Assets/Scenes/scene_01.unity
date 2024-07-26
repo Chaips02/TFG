@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 4979.9917, g: 3866.4702, b: 4569.137, a: 1}
+  m_IndirectSpecularColor: {r: 4979.773, g: 3866.2397, b: 4569.028, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5980,7 +5980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2664761420685688, guid: f2738ab961fc4ec4aba4c52fa8f0163b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2418397
+      value: 0.532
       objectReference: {fileID: 0}
     - target: {fileID: 2664761420685688, guid: f2738ab961fc4ec4aba4c52fa8f0163b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6018,6 +6018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: m_puerta_corredera (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1171599229441530391, guid: f2738ab961fc4ec4aba4c52fa8f0163b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b9c2f6de785e054a82e7fe64cf455bf, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16741,7 +16745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2664761420685688, guid: f2738ab961fc4ec4aba4c52fa8f0163b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2418397
+      value: 0.532
       objectReference: {fileID: 0}
     - target: {fileID: 2664761420685688, guid: f2738ab961fc4ec4aba4c52fa8f0163b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16779,6 +16783,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: m_puerta_corredera
       objectReference: {fileID: 0}
+    - target: {fileID: 1171599229441530391, guid: f2738ab961fc4ec4aba4c52fa8f0163b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b9c2f6de785e054a82e7fe64cf455bf, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
