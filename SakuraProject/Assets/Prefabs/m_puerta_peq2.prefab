@@ -48,10 +48,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2609222212092906254, guid: 6c80fe6904bd6a045ab999169ae6b0d9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 46850b2f8349846449a3df0992c19fb0, type: 2}
+    - target: {fileID: -2099485524877250715, guid: 6c80fe6904bd6a045ab999169ae6b0d9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 46850b2f8349846449a3df0992c19fb0, type: 2}
+    - target: {fileID: -1742956657253491303, guid: 6c80fe6904bd6a045ab999169ae6b0d9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ec1b05959b280724696ebca747a2a396, type: 2}
     - target: {fileID: 919132149155446097, guid: 6c80fe6904bd6a045ab999169ae6b0d9, type: 3}
       propertyPath: m_Name
       value: m_puerta_peq2
       objectReference: {fileID: 0}
+    - target: {fileID: 2325819653471319334, guid: 6c80fe6904bd6a045ab999169ae6b0d9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a3faaa211c15b94ca0cfe9d1fc38c03, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
