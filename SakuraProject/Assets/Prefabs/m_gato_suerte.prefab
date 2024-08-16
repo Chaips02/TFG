@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f422a3729c1350449abec4eef6c8d85b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebea3b46e40ce6e45b9377116beafe82, type: 2}
     - target: {fileID: 919132149155446097, guid: f422a3729c1350449abec4eef6c8d85b, type: 3}
       propertyPath: m_Name
       value: m_gato_suerte
