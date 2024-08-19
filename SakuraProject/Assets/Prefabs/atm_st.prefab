@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90.9
       objectReference: {fileID: 0}
+    - target: {fileID: -3874340063296181229, guid: 28d36b666eb44434da24de404ea38306, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 46cb69a0dbbd0b94a8fb4cc32bceedba, type: 2}
     - target: {fileID: 919132149155446097, guid: 28d36b666eb44434da24de404ea38306, type: 3}
       propertyPath: m_Name
       value: atm_st
@@ -68,6 +72,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.006
       objectReference: {fileID: 0}
+    - target: {fileID: 1439968530005091778, guid: 28d36b666eb44434da24de404ea38306, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 70cf73336c4a9fa49a8f3c65cb583163, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

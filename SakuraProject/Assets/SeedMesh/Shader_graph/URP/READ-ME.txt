@@ -1,0 +1,3 @@
+This URP package do not works for "Mossy Cedrus Forest" you must use TVE Lite shaders for URP and Built-in RP.
+
+If you are not using "Mossy Cedrus Forest" ignore this file.

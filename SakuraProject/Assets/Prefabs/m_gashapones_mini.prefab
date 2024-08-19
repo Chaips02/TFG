@@ -52,26 +52,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: m_gashapones_mini
       objectReference: {fileID: 0}
+    - target: {fileID: 4503890904867792067, guid: 51ed1178fa074ce43972b65ce9ce87c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a1bdf6253dc92f40a1a4df3c1853b50, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 51ed1178fa074ce43972b65ce9ce87c8, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -5648658695711386465, guid: 51ed1178fa074ce43972b65ce9ce87c8, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1354734645018143973}
+      addedObject: {fileID: 6714288663906899412}
   m_SourcePrefab: {fileID: 100100000, guid: 51ed1178fa074ce43972b65ce9ce87c8, type: 3}
---- !u!1 &6267058856664498802 stripped
+--- !u!1 &7756209948325489596 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 51ed1178fa074ce43972b65ce9ce87c8, type: 3}
+  m_CorrespondingSourceObject: {fileID: -5648658695711386465, guid: 51ed1178fa074ce43972b65ce9ce87c8, type: 3}
   m_PrefabInstance: {fileID: 6501079113988128547}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1354734645018143973
+--- !u!65 &6714288663906899412
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6267058856664498802}
+  m_GameObject: {fileID: 7756209948325489596}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -84,5 +88,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0064535877, y: 0.010883057, z: 0.005235253}
-  m_Center: {x: -0.00060917117, y: 0.005443728, z: 0.0000000073093904}
+  m_Size: {x: 0.006453586, y: 0.010883059, z: 0.005235252}
+  m_Center: {x: -0.0006091719, y: 0.0054437295, z: 0.0000000055879354}
