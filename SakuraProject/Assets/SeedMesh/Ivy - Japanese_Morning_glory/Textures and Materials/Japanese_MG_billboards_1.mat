@@ -292,7 +292,7 @@ Material:
     - bend_vegetation: 0.05
     - turbulence_vegetation: 0.8
     - wind_speed_vegetation: 0.5
-    - wind_vegetation: 0
+    - wind_vegetation: 1
     m_Colors:
     - Vector2_08a82e0e13154010b31c543aff7192b4: {r: 0.5, g: 1, b: 0, a: 0}
     - Vector2_fef41d8fdb394bab92fa6a65ad93b844: {r: -1.5, g: 2, b: 0, a: 0}
