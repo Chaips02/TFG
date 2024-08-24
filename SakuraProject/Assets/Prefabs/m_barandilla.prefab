@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fc8fe3e8ac4cf07489af69b86d79bf3b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: add507b9b26da86499d58120057f048b, type: 2}
     - target: {fileID: 919132149155446097, guid: fc8fe3e8ac4cf07489af69b86d79bf3b, type: 3}
       propertyPath: m_Name
       value: m_barandilla

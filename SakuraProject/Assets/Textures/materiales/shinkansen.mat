@@ -148,7 +148,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AORemapMax: 0.9999999
-    - _AORemapMin: 0.72798437
+    - _AORemapMin: 0.40127236
     - _ATDistance: 1
     - _AddPrecomputedVelocity: 0
     - _AlbedoAffectEmissive: 0
