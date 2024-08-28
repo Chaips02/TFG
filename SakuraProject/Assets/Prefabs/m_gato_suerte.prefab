@@ -56,6 +56,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: m_gato_suerte
       objectReference: {fileID: 0}
+    - target: {fileID: 6198432768565192352, guid: f422a3729c1350449abec4eef6c8d85b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebea3b46e40ce6e45b9377116beafe82, type: 2}
+    - target: {fileID: 8756220592104178097, guid: f422a3729c1350449abec4eef6c8d85b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebea3b46e40ce6e45b9377116beafe82, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
