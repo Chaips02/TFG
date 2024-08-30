@@ -71,3 +71,5 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /SakuraProject/[Aa]ssets/[Ss]treamingAssets/aa.meta
 /SakuraProject/[Aa]ssets/[Ss]treamingAssets/aa/*
+export_unity/map.fbx
+export_unity/export_mapa.fbx
