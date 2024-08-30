@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: agua
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
-  m_Parent: {fileID: 2100000, guid: 6a3faaa211c15b94ca0cfe9d1fc38c03, type: 2}
+  m_Parent: {fileID: 2100000, guid: ec1b05959b280724696ebca747a2a396, type: 2}
   m_ModifiedSerializedProperties: 16
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
@@ -24,11 +24,12 @@ Material:
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
+  - DistortionVectors
+  - MOTIONVECTORS
   - TransparentDepthPrepass
   - TransparentDepthPostpass
   - TransparentBackface
   - RayTracingPrepass
-  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -36,13 +37,22 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaDstBlend: 10
+    - _DistortionBlurDstBlend: 1
+    - _DistortionBlurSrcBlend: 1
+    - _DistortionDstBlend: 1
+    - _DistortionSrcBlend: 1
     - _DstBlend: 10
     - _Smoothness: 0.976
     - _StencilRefDepth: 0
+    - _StencilRefDistortionVec: 4
     - _StencilRefGBuffer: 2
     - _StencilRefMV: 32
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 15
+    - _StencilWriteMaskMV: 41
     - _SurfaceType: 1
     - _ZTestDepthEqualForOpaque: 4
+    - _ZTestModeDistortion: 4
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 0.0039215656, g: 0.47155213, b: 0.62352943, a: 0.6901961}
