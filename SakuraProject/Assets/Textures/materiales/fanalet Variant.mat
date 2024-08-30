@@ -26,17 +26,18 @@ Material:
   m_Name: fanalet Variant
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_Parent: {fileID: 2100000, guid: 2b90a77f25a2ffa4cb6916be3fcc45cf, type: 2}
-  m_ModifiedSerializedProperties: 0
+  m_ModifiedSerializedProperties: 2
   m_ValidKeywords:
   - _ALPHATEST_ON
   - _DISABLE_SSR_TRANSPARENT
   - _DOUBLESIDED_ON
+  - _EMISSIVE_COLOR_MAP
   - _MASKMAP
   - _MATERIAL_FEATURE_TRANSMISSION
   - _NORMALMAP
   - _NORMALMAP_TANGENT_SPACE
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -56,6 +57,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 4d23a3e1a403eff42b5612f8974728c4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _EmissiveColorMap:
+        m_Texture: {fileID: 2800000, guid: 4d23a3e1a403eff42b5612f8974728c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 4d23a3e1a403eff42b5612f8974728c4, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -66,8 +71,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlbedoAffectEmissive: 0
+    - _EmissiveIntensity: 512
+    - _EmissiveIntensityUnit: 1
     - _MaterialID: 5
     - _StencilRef: 0
     - _StencilRefGBuffer: 10
-    m_Colors: []
+    m_Colors:
+    - _EmissiveColor: {r: 512, g: 512, b: 512, a: 512}
+    - _EmissiveColorLDR: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

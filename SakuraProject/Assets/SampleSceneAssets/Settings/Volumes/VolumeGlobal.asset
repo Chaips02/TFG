@@ -67,10 +67,10 @@ MonoBehaviour:
     m_Value: 2
   rayTracing:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.6
+    m_Value: 0.7
   directLightingStrength:
     m_OverrideState: 1
     m_Value: 0.1
@@ -220,7 +220,7 @@ MonoBehaviour:
     m_Value: 0.2
   scatter:
     m_OverrideState: 1
-    m_Value: 0.4
+    m_Value: 0.57
   tint:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -269,10 +269,10 @@ MonoBehaviour:
     m_Value: 1
   upperHemisphereLuxValue:
     m_OverrideState: 1
-    m_Value: 0.4660715
+    m_Value: 0.46607146
   upperHemisphereLuxColor:
     m_OverrideState: 1
-    m_Value: {x: 0.18750614, y: 0.29181972, z: 0.5}
+    m_Value: {x: 0.18750615, y: 0.29181966, z: 0.5}
   desiredLuxValue:
     m_OverrideState: 1
     m_Value: 25000
@@ -565,7 +565,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 0
   meteringMode:
     m_OverrideState: 1
     m_Value: 4
@@ -574,7 +574,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 12
+    m_Value: 11.641791
   compensation:
     m_OverrideState: 1
     m_Value: 0
