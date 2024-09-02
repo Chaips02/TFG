@@ -617,7 +617,7 @@ ModelImporter:
       takeName: ramen1.001|ramen1.001Action
       internalID: 3036437812090089092
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 146
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -733,7 +733,7 @@ ModelImporter:
       takeName: ramen1.001|ramen2.001Action
       internalID: 5504979486276474615
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -762,7 +762,7 @@ ModelImporter:
       takeName: ramen1.001|ramen3.001Action
       internalID: 3487538450417903464
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -791,7 +791,7 @@ ModelImporter:
       takeName: ramen1.001|ramen4.001Action
       internalID: -981889500510331739
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -878,7 +878,7 @@ ModelImporter:
       takeName: ramen2.001|ramen1.001Action
       internalID: -6778402322344957962
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -994,7 +994,7 @@ ModelImporter:
       takeName: ramen2.001|ramen2.001Action
       internalID: -8310509996186804158
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1023,7 +1023,7 @@ ModelImporter:
       takeName: ramen2.001|ramen3.001Action
       internalID: -6537281278891986360
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1052,7 +1052,7 @@ ModelImporter:
       takeName: ramen2.001|ramen4.001Action
       internalID: 6888626875855498218
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1139,7 +1139,7 @@ ModelImporter:
       takeName: ramen3.001|ramen1.001Action
       internalID: -4148416735113603830
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1255,7 +1255,7 @@ ModelImporter:
       takeName: ramen3.001|ramen2.001Action
       internalID: 1629587673948740484
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1313,7 +1313,7 @@ ModelImporter:
       takeName: ramen3.001|ramen4.001Action
       internalID: 3248140705758450778
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
