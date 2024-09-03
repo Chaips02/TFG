@@ -37,7 +37,7 @@ ModelImporter:
       takeName: palanca2|palanca2Action
       internalID: -4031986342031990295
       firstFrame: 0
-      lastFrame: 15
+      lastFrame: 250
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -66,7 +66,7 @@ ModelImporter:
       takeName: palanca2|palanca2Action
       internalID: 4396280541938691318
       firstFrame: 0
-      lastFrame: 15
+      lastFrame: 149
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
