@@ -17257,6 +17257,7 @@ GameObject:
   - component: {fileID: 862571664}
   - component: {fileID: 862571663}
   - component: {fileID: 862571665}
+  - component: {fileID: 862571666}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -17463,6 +17464,18 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
+--- !u!114 &862571666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862571662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e858cfc5ad7a844597104a0aedf6b58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &864263405 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1532454832873997947, guid: f71932027c4a25e4e99082011c72fb87, type: 3}
