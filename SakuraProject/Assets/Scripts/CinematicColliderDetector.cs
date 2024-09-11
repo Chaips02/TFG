@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CinematicColliderDetector : MonoBehaviour
@@ -9,6 +7,7 @@ public class CinematicColliderDetector : MonoBehaviour
         if (other.gameObject.layer == 10) // Player
         {
             AudioManager.instance.PlayEnding();
+            EndingCanvasController.instance.ShowPanelTween();
         }
     }
 }
