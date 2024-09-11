@@ -62,6 +62,7 @@ public class EndingCanvasController : MonoBehaviour
         yield return new WaitForSeconds(17f);
         _videoRawImage.SetActive(true);
         _videoPlayer.Play();
+        _panel.SetActive(true);
     }
 
     private void QuitApplication(VideoPlayer vp)
