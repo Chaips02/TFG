@@ -18125,7 +18125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e858cfc5ad7a844597104a0aedf6b58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationFactor: 0.5
+  _rotationFactor: 0.3
   _intentensityFactor: 1000
 --- !u!4 &864263405 stripped
 Transform:
