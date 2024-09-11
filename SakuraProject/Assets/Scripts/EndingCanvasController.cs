@@ -11,6 +11,7 @@ public class EndingCanvasController : MonoBehaviour
     [SerializeField] private GameObject _panel;
     [SerializeField] private VideoPlayer _videoPlayer;
     [SerializeField] private GameObject _videoRawImage;
+    [SerializeField] private GameObject _smokeParticles;
 
     private void Awake()
     {
@@ -48,6 +49,7 @@ public class EndingCanvasController : MonoBehaviour
             CamerasManager.instance.ActivateEndingCamera();
             _panel.SetActive(false);
             ActivateAnimation();
+            StartCoroutine(ActivateSmokeParticles());
             StartCoroutine(PlayCreditsVideo());
         });
     }
@@ -63,6 +65,12 @@ public class EndingCanvasController : MonoBehaviour
         _videoRawImage.SetActive(true);
         _videoPlayer.Play();
         _panel.SetActive(true);
+    }
+
+    private IEnumerator ActivateSmokeParticles()
+    {
+        yield return new WaitForSeconds(9f);
+        _smokeParticles.SetActive(true);
     }
 
     private void QuitApplication(VideoPlayer vp)
