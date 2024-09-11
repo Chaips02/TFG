@@ -69,7 +69,7 @@ public class EndingCanvasController : MonoBehaviour
 
     private IEnumerator ActivateSmokeParticles()
     {
-        yield return new WaitForSeconds(9f);
+        yield return new WaitForSeconds(9.5f);
         _smokeParticles.SetActive(true);
     }
 
