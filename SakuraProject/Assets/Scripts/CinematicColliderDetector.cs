@@ -6,6 +6,7 @@ public class CinematicColliderDetector : MonoBehaviour
     {
         if (other.gameObject.layer == 10) // Player
         {
+            GetComponent<Collider>().enabled = false;
             AudioManager.instance.PlayEnding();
             EndingCanvasController.instance.ShowPanelTween();
         }
