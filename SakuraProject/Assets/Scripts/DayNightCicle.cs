@@ -8,7 +8,7 @@ public class DayNightCicle : MonoBehaviour
     [SerializeField] private float _rotationFactor = 0.5f;
     [SerializeField] private float _intentensityFactor = 1000f;
     private HDAdditionalLightData _lightData;
-
+    [SerializeField] private GameObject lights;
     void Start()
     {
         _lightData = GetComponent<HDAdditionalLightData>();
@@ -34,6 +34,10 @@ public class DayNightCicle : MonoBehaviour
         if (_lightData.intensity > 0f)
         {
             _lightData.intensity -= _intentensityFactor * Time.deltaTime;
+        }
+        else if (!lights.activeSelf)
+        {
+            lights.SetActive(true);
         }
     }
 }

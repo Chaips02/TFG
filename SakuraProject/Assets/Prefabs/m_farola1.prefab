@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: m_farola1
       objectReference: {fileID: 0}
+    - target: {fileID: 4856075733527392489, guid: f1e9d316cb1d12a4e96c1742ea098540, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ec1b05959b280724696ebca747a2a396, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
